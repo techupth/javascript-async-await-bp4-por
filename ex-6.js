@@ -33,3 +33,7 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+const JohnProfile = await getJohnProfile();
+console.log(JohnProfile);
+const order = await getJohnOrders();
+console.log(order);
